@@ -1,0 +1,93 @@
+.rightBar {
+  flex: 1; /* Adjust flex value as needed */
+  position: relative;
+  top: 300px;
+  max-height: calc(120vh - 500px); /* Adjust max-height as needed */
+  overflow: auto; /* Use 'auto' for scrollbars to appear only when needed */
+  background-color: #f0f0f0;
+  padding: 10px; /* Adjust padding as needed */
+
+  @media only screen and (max-width: 599px) {
+      display: none;
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 1023px) {
+      display: none;
+  }
+
+  &::-webkit-scrollbar {
+      display: none; /* Hide scrollbars */
+  }
+
+  .container {
+      padding: 20px; /* Adjust padding as needed */
+  }
+
+  .item {
+      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+      padding: 10px; /* Adjust padding as needed */
+      margin-bottom: 10px; /* Adjust margin as needed */
+      background-color: #fff; /* Adjust background color as needed */
+  }
+
+  .item span {
+      color: gray;
+  }
+
+  .item .user {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0; /* Adjust margin as needed */
+  }
+
+  .item .user .userInfo {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Adjust gap as needed */
+      position: relative;
+  }
+
+  .item .user .userInfo img {
+      width: 40px; /* Adjust width as needed */
+      height: 40px; /* Adjust height as needed */
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+  .item .user .userInfo .online {
+      width: 10px; /* Adjust width as needed */
+      height: 10px; /* Adjust height as needed */
+      border-radius: 50%;
+      background-color: limegreen;
+      position: absolute;
+      top: 0;
+      left: 30px; /* Adjust left position as needed */
+  }
+
+  .item .user .userInfo p {
+      color: #333;
+      font-weight: 500;
+  }
+
+  .item .user .buttons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .item .user .buttons button {
+      border: none;
+      padding: 5px;
+      color: white;
+      cursor: pointer;
+  }
+
+  .item .user .buttons button:first-child {
+      background-color: #5271ff;
+  }
+
+  .item .user .buttons button:last-child {
+      background-color: #f0544f;
+  }
+}

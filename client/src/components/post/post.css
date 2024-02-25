@@ -1,0 +1,83 @@
+.post {
+  /* Apply box shadow */
+  -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+  
+  /* Set border radius */
+  border-radius: 20px;
+  
+  /* Set background color */
+  background-color: #fff;
+  
+  /* Set text color */
+  color: black;
+}
+
+/* .container */
+.post .container {
+  padding: 20px;
+}
+
+/* .user */
+.post .container .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .userInfo */
+.post .container .user .userInfo {
+  display: flex;
+  gap: 20px;
+}
+
+/* img */
+.post .container .user .userInfo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* .details */
+.post .container .user .userInfo .details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .name */
+.post .container .user .userInfo .details .name {
+  font-weight: 500;
+}
+
+/* .date */
+.post .container .user .userInfo .details .date {
+  font-size: 12px;
+}
+
+/* .content */
+.post .container .content {
+  margin: 20px 0px;
+}
+
+/* .content img */
+.post .container .content img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+/* .info */
+.post .container .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .item */
+.post .container .info .item {
+  display: flex;
+  align-items: center;
+}

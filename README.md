@@ -34,8 +34,10 @@ CREATE TABLE comments (
      OUTPUT:
      
  OUTPUT:
- ![image](https://github.com/VarnasriKumaran/social/assets/109358646/a4de5e44-ed04-48f2-b715-b0ee299212bb)
- ![image](https://github.com/VarnasriKumaran/social/assets/109358646/311b0eac-d6a3-433f-9fc1-bd63abaa53a9)
+ ![image](https://github.com/VarnasriKumaran/social/assets/109358646/d62c88e5-346e-40cf-b7d1-909d14ce2e44)
+
+ ![image](https://github.com/VarnasriKumaran/social/assets/109358646/cdd73808-9e22-43d9-8373-0dd9ccc5556a)
+
 
 
 

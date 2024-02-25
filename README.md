@@ -36,7 +36,7 @@ CREATE TABLE comments (
  OUTPUT:
  ![image](https://github.com/VarnasriKumaran/social/assets/109358646/a4de5e44-ed04-48f2-b715-b0ee299212bb)
  ![image](https://github.com/VarnasriKumaran/social/assets/109358646/311b0eac-d6a3-433f-9fc1-bd63abaa53a9)
-The working module of the Login and Register was right, but the error occured with the database and post of picture in account page .
+
 
 
  
